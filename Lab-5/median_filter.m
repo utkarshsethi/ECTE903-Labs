@@ -20,4 +20,4 @@ for y = 1:height
         g(y, x) = median(window); % output pixel = median of window 
     end
 end
-g = uint8(g); imshow(g); % convert to 8-bit image and display
+g = uint8(g); %imshow(g); % convert to 8-bit image and display
